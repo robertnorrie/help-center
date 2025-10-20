@@ -2,12 +2,14 @@
 
 Forked repository and added the repo to Coderabbit. 
 
-* Pull Request: https://github.com/robertnorrie/help-center/pull/1
-* CodeRabbit dashboard: https://app.coderabbit.ai/dashboard?var-org_id=d92bfaca-34b0-427b-9304-a7330da9199a&var-repo_name=help-center&var-username=All&var-team=All&var-team_users=All 
+* [Pull Request](https://github.com/robertnorrie/help-center/pull/1)
+* [CodeRabbit dashboard](https://app.coderabbit.ai/dashboard?var-org_id=d92bfaca-34b0-427b-9304-a7330da9199a&var-repo_name=help-center&var-username=All&var-team=All&var-team_users=All) 
 
 I intentionally copied and pasted the sample text from the document into the new file without any correct formatting. 
 
 CodeRabbit ran on the pull request and detected the missing indentation in the code, and suggested the appropriate fixes to commit to resolve this. 
+
+<img width="899" height="723" alt="Screenshot 2025-10-20 at 16 59 58" src="https://github.com/user-attachments/assets/a071bef7-6be5-4b0c-9535-22414fc16aa5" />
 
 CodeRabbit ran again and updated once I committed those suggested changes onto the pull request branch. 
 
@@ -16,13 +18,20 @@ It gave a summary of the checks that were required and their status to confirm t
 
 It also gave details of what extra context it used in it’s review, this case Ruff to analyse the formatting.
 
+<img width="371" height="82" alt="Screenshot 2025-10-20 at 09 03 54" src="https://github.com/user-attachments/assets/e13154c7-e2b8-4f65-9e2f-6a3f0efa3868" />
+
 
 
 # Task 2
 
 I created pull request here: https://github.com/robertnorrie/help-center/pull/2 
 Task Rabbit did not run, as the base branch was not the default branch. 
+
+<img width="794" height="428" alt="Screenshot 2025-10-20 at 15 03 09" src="https://github.com/user-attachments/assets/01ea1364-6c7d-4fce-92e5-1cfac5fb0aa5" />
+
 I was able to manually trigger the review by running `@coderabbitai review` in the pull request. 
+<img width="1045" height="478" alt="Screenshot 2025-10-20 at 17 00 49" src="https://github.com/user-attachments/assets/3be811d0-ad54-4167-97cf-3697936594e9" />
+
 I consulted the documentation and noted that additional base branches can be configured for auto reviews, either in the `coderabbit.yaml` file, or in the repository settings in the UI under *review > auto review > ~base branches* 
 
 This is the response I would send to a customer experiencing this issue: 
@@ -58,3 +67,12 @@ This is the response I would send to a customer experiencing this issue:
 > Kind regards, 
 > 
 > Robert 
+
+# Task 3
+
+General feedback: 
+
+I found it really straightforward to create an account and authorise access to my repositories and get a review to trigger. 
+I had no issues with the initial configuration - I also found the docs really straightforward to search. 
+
+I also really like how configurable the reviews are, especially by being able to configure a yaml file for the configuration. You could add this file to your repo template to ensure it is present for all new repos to ensure consistent experience across repos. 

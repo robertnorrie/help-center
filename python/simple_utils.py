@@ -5,4 +5,5 @@ def reverse_string(text):
 def count_words(sentence):
 return len(sentence.split())
 def celsius_to_fahrenheit(celsius):
-return (celsius * 9/5) + 32
+    """Converts Celsius to Fahrenheit."""
+    return (celsius * 9/5) + 32

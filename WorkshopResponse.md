@@ -63,7 +63,7 @@ This is the response I would send to a customer experiencing this issue:
 > https://app.coderabbit.ai/repository/1079665568/settings?tab=review&innerTab=auto_review
 >For more information on accessing your repository settings see: https://docs.coderabbit.ai/guides/repository-settings#browse-and-modify-your-settings-using-the-web-interface 
 >
-> // Note: this is a link to my own repo. However in this case, i'd link the customer directly to their repo settings if this is something we can easily find. Alternatively I'd just provide instructions and link to the docs. 
+> // Note: this is a link to my own repo. However in this case, I'd link the customer directly to their repo settings if this is something we can easily find. Alternatively I'd just provide instructions and link to the docs. 
 > 
 > I hope that helps solve your issue - if there is anything else we can help with please let me know. 
 > 
